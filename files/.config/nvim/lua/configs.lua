@@ -1,0 +1,16 @@
+local opt = vim.opt
+
+opt.termguicolors = true
+opt.ignorecase = true
+opt.swapfile = false
+opt.clipboard = "unnamedplus"
+opt.relativenumber = true
+opt.cursorline = true
+opt.wrap = false
+opt.autoindent = true
+opt.expandtab =true
+opt.tabstop = 2
+opt.softtabstop = 2
+opt.shiftwidth = 2
+opt.listchars = "tab: ,multispace:|   ,eol:󰌑"
+opt.list = true
