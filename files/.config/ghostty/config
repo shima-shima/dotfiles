@@ -1,9 +1,13 @@
 # The syntax is "key = value".
-theme = TokyoNight Night
 
+# window
+macos-titlebar-style = hidden
 window-padding-x = 16
-window-padding-y = 8
+window-padding-y = 16, 0
 
+# looks
+theme = TokyoNight Night
 font-family = "Maple Mono NF CN"
 
+# behavior
 command = /opt/homebrew/bin/fish
