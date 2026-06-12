@@ -16,7 +16,6 @@ vim.api.nvim_create_autocmd('CursorMoved', {
   pattern = '*',
   callback = vim.lsp.buf.clear_references,
 })
-vim.opt.updatetime = 500
 
 -- インサートモードを抜けた（InsertLeave）タイミングで IME をオフにする
 vim.api.nvim_create_autocmd("InsertLeave", {

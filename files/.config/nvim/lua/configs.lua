@@ -15,3 +15,4 @@ opt.softtabstop = 2
 opt.shiftwidth = 2
 opt.listchars = "tab: "
 opt.list = true
+vim.opt.updatetime = 500
