@@ -12,5 +12,5 @@ opt.expandtab =true
 opt.tabstop = 2
 opt.softtabstop = 2
 opt.shiftwidth = 2
-opt.listchars = "tab: ,multispace:|   ,eol:󰌑"
+opt.listchars = "tab: "
 opt.list = true
