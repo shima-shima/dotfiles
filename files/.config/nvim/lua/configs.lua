@@ -4,6 +4,7 @@ opt.termguicolors = true
 opt.ignorecase = true
 opt.swapfile = false
 opt.clipboard = "unnamedplus"
+opt.signcolumn = "yes"
 opt.relativenumber = true
 opt.cursorline = true
 opt.wrap = false
