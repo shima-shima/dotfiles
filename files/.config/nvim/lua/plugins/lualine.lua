@@ -3,6 +3,9 @@ return {
   dependencies = { 'nvim-tree/nvim-web-devicons' },
   config = function() 
     require('lualine').setup {
+      options = {
+        always_show_tabline = false,
+      },
       sections = {
         lualine_a = {},
         lualine_b = {},
@@ -21,7 +24,9 @@ return {
         lualine_y = {},
         lualine_z = {},
       },
-      tabline = {},
+      tabline = {
+        lualine_b = { { 'tabs', mode = 1 } },
+      },
       extensions = {},
     }
   end,
