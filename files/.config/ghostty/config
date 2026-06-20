@@ -6,8 +6,12 @@ window-padding-x = 16
 window-padding-y = 16, 0
 
 # looks
-theme = TokyoNight Night
-font-family = "Maple Mono NF CN"
+# theme = TokyoNight Night
+theme = Catppuccin Latte
+#font-family = "Maple Mono NF CN"
+font-family = "Ioskeley Mono"
+font-style = "Light"
+font-size = 14
 
 # behavior
 command = /opt/homebrew/bin/fish
